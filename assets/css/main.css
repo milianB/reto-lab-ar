@@ -1,0 +1,95 @@
+.selector-for-some-widget {
+ box-sizing: content-box;
+}
+
+/*Estilos para la sección uno; registro de usuario */
+
+  /*Imagen de fondo para sección Registrate*/
+.taxi-image{
+   background-image: url("../images/taxi.jpg");
+   height: 100vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom;
+}
+  /* Jumbotrón; Regístrate */
+.jum-1{
+ color: white;
+ background-color: #F7B617;
+ padding: 30px;
+ top: 65px;
+ height: 400px;
+}
+
+  /*Ajuste tamaño de letra botones de jumbotron*/
+.btn{
+ font-size: 16px;
+}
+
+  /* Jumbotron para 768px*/
+.jum-2{
+ display: none;
+}
+
+/* Estilos para sección 2; iPhone6Plus, descarga la nueva versión*/
+.sec-2{
+  border: 1px solid white;
+  height: 445px;
+  padding: 20px 0px 20px 66px;
+  margin: 52px 0px 52px -41px;
+  color: white;
+  left: 56px;
+}
+
+/*Ajustando margen */
+.p-down{
+  margin: 46px 24px 26px 114px;
+}
+
+  /*Estilos sección 3; Conduce cuando quieras */
+.sec-3{
+ background-image: url("../images/conduce.jpg");
+ height: 100vh;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: bottom;
+}
+
+  /* Cuadro de texto; Conduce cuando quieras */
+.drive{
+  top: 125px;
+  color: white;
+  right: 10px;
+}
+
+  /*Estilos: color*/
+.white{
+ background-color: white;
+ color: white;
+}
+
+.black{
+ color: black;
+}
+
+.yellow{
+ background-color: #F7B617;
+}
+
+  /* Responsive para 768px */
+@media (max-width: 768px) {
+ .jum-2{
+   color: white;
+   background-color: #F7B617;
+   padding: 30px;
+   top: 120px;
+   display: block;
+   height: 250px;
+ }
+}
+
+@media (max-width: 768px) {
+   .jum-1{
+     display: none;
+   }
